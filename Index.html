@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="./Style.css" />
+</head>
+
+<body>
+    <audio src="" id="audio"></audio>
+    <div class="main">
+        <div class="sub-main">
+            <h1 class="title">Song1</h1>
+            <div class="disc"></div>
+            <div class="song-slider">
+                <div class="duration">
+                    <span class="current-time">00:00</span>
+                    <span class="song-duration">00:00</span>
+                </div>
+                <input type="range" value="0" class="seek-bar" />
+            </div>
+            <div class="control">
+                <button class="prev"><img src="./Images/prev.svg"/></button>
+                <button class="play pause"><img id="playImg" src="./Images/play.svg"/></button>
+                <button class="next"><img src="./Images/next.svg"/></button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="./data.js"></script>
+<script src="./Script.js"></script>
+
+</html>
